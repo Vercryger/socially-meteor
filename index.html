@@ -1,0 +1,31 @@
+<head>
+  <base href="/">
+  <title>Meteor Angular</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body ng-app="socially" class="grey lighten-3">
+  <!-- <div>
+    <h2 class="center-align">Socially App</h2>
+  </div>
+  
+  <div ng-include="'index.ng.html'"></div>
+   -->
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">Socially</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="/parties">Parties</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div ui-view></div>
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
