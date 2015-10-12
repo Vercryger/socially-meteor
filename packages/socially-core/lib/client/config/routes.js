@@ -13,11 +13,11 @@
     $urlRouterProvider.otherwise('/');
 
     // Home state routing
-    $stateProvider.
-    state('home', {
-      url: '/',
-      templateUrl: 'lib/client/templates/home.client.view.ng.html',
-      controller: 'HomeController'
-    });
+    $stateProvider
+      .state('home', {
+        url: '/',
+        templateUrl: 'lib/client/templates/home.ng.html',
+        controller: 'HomeController'
+      });
   }
 })();
