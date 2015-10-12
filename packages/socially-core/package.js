@@ -39,7 +39,7 @@ Package.onUse(function (api) {
     'lib/public/font/roboto/Roboto-Thin.woff',
     'lib/public/font/roboto/Roboto-Thin.woff2',
     'lib/public/js/materialize.min.js',
-    'lib/client/templates/home.client.view.ng.html',
+    'lib/client/templates/home.ng.html',
     'lib/client/index.html'
   ], 'client');
   
