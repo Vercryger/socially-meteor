@@ -14,12 +14,12 @@
     
       .state('parties', {
         url: '/parties',
-        templateUrl: 'client/templates/parties-list.ng.html',
+        templateUrl: 'lib/client/templates/parties-list.ng.html',
         controller: 'PartiesListCtrl'
       })
       .state('partyDetails', {
         url: '/parties/:partyId',
-        templateUrl: 'client/templates/party-details.ng.html',
+        templateUrl: 'lib/client/templates/party-details.ng.html',
         controller: 'PartyDetailsCtrl'
       });
   }
